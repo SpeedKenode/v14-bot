@@ -23,6 +23,7 @@ module.exports = {
         const noperm = new EmbedBuilder()
             .setDescription(`:x: You don't have permission to do it.`)
             .setColor("#06016b")
+            .setTimestamp()
         
         const dms = new EmbedBuilder()
             .setColor("#06016b")

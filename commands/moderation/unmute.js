@@ -28,7 +28,7 @@ module.exports = {
         const embed = new EmbedBuilder()
             .setTitle("**:white_check_mark: Unmuted**")
             .setDescription(`Succesfully unmuted ${user}.`)
-            .setColor(0x5fb041)
+            .setColor("#06016b")
             .setTimestamp()
 
         if (member.roles.highest.position >= interaction.member.roles.highest.position)
